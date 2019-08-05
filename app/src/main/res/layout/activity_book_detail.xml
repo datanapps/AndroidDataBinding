@@ -3,7 +3,7 @@
    >
 
     <data>
-        <variable name="user" type="com.example.androiddatabinding.User"/>
+        <variable name="book" type="com.example.androiddatabinding.Book"/>
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -11,14 +11,16 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity"
+        tools:context=".BookDetailActivity"
        >
 
     <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@{user.name}"
+        android:text="@{book.name}"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -29,7 +31,8 @@
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@{user.email}"
+        android:text="@{book.email}"
+        android:textSize="20sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/name" />
