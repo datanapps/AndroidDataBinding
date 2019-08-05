@@ -15,3 +15,10 @@ Its have just a few steps :
 1. Data binding can lead to faster development times
 2. Faster execution times 
 3. More readable and maintained code.
+
+
+
+#### Add the dataBinding element to your app build.gradle file to enable Data Binding.
+      android {
+      dataBinding.enabled = true
+      }
