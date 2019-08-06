@@ -1,7 +1,7 @@
 # AndroidDataBinding
 Now very easy to bind data and it's view (data binding) in android
 
-![alt text](https://github.com/datanapps/NightMode/blob/master/screens/screens.jpg)
+![alt text](https://github.com/datanapps/AndroidDataBinding/blob/master/screens/screens.png)
 
 
 ### Download APK : 
