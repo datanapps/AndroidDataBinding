@@ -18,9 +18,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    dataBinding {
+    dataBinding.enabled true
+   /* dataBinding {
         enabled = true
-    }
+    }*/
 }
 
 dependencies {
@@ -31,11 +32,4 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    // recycle view
-    implementation 'androidx.recyclerview:recyclerview:1.1.0-beta01'
-
-    // glide
-
-    implementation 'com.github.bumptech.glide:glide:4.9.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
 }
